@@ -19,7 +19,7 @@ class CrearTablaUsuario extends Migration
             $table->string('apellidos',50);
             $table->string('user',20);
             $table->string('password',20);
-            $table->boolean('estado');
+            $table->boolean('estado'); 
         });
     }
 
